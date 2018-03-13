@@ -1,7 +1,6 @@
 import Wrangling._
 import hw.json._
 
-// You will need to write more tests.
 class TestSuite extends org.scalatest.FunSuite {
 
  test("Key"){
@@ -41,24 +40,4 @@ test("rating less than"){
 
   assert(category(jsonList, "Food") == List(json1))
   }
-
-  // test("group by category"){
-  // val json1: Json = JsonDict(Map(JsonString("categories") -> JsonArray(List(JsonString("Food"), JsonString("Water")))))
-  // val json2: Json = JsonDict(Map(JsonString("categories") -> JsonArray(List(JsonString("Lights"), JsonString("Water")))))
-  // val jsonList: List[Json] = List(json1, json2)
-
-  // assert(groupByCategory(jsonList) == Map("Food" -> List(json1), "Water" -> List(json1, json2), "Lights" -> List(json2)))
-  // }
-
-  // test("attributes"){
-
-  // val json1: Json = JsonDict(Map(JsonString("attributes") -> Array(4.0) ))
-
-  // }
-
-  
-
-
- 
-
 }
