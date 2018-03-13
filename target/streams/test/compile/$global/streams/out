@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-json-data-wrangling/src/test/scala/Tests.scala:50:9: comparing values of types Nothing and scala.collection.immutable.Map[String,List[hw.json.Json]] using `==' will always yield false[0m
+[0m[[0m[31merror[0m] [0m[0m  assert(groupByCategory(jsonList) == Map("Food" -> List(json1), "Water" -> List(json1, json2), "Lights" -> List(json2)))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
