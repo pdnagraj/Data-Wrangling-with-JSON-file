@@ -89,11 +89,6 @@ def ratingLTHelper(datum: Json, rating: Double): Boolean = datum match {
     }
     case _ => "no state"
   })
-
-
-
-
-  def groupByCategory(data: List[Json]) = ???
   
 
   def getRating(head: Json): Double = { 
